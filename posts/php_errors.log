@@ -1,0 +1,64 @@
+[07-Apr-2018 01:32:09 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/posts/peccatum-non-nominandum/lib/setup.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/posts/peccatum-non-nominandum/index.php on line 2
+[07-Apr-2018 01:32:09 UTC] PHP Stack trace:
+[07-Apr-2018 01:32:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/posts/peccatum-non-nominandum/index.php:0
+[07-Apr-2018 01:32:09 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/posts/peccatum-non-nominandum/lib/setup.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/posts/peccatum-non-nominandum/index.php on line 2
+[07-Apr-2018 01:32:09 UTC] PHP Stack trace:
+[07-Apr-2018 01:32:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/posts/peccatum-non-nominandum/index.php:0
+[07-Apr-2018 01:34:02 UTC] PHP Warning:  require_once(../../../lib/setup.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/posts/peccatum-non-nominandum/index.php on line 2
+[07-Apr-2018 01:34:03 UTC] PHP Stack trace:
+[07-Apr-2018 01:34:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/posts/peccatum-non-nominandum/index.php:0
+[07-Apr-2018 01:34:03 UTC] PHP Fatal error:  require_once(): Failed opening required '../../../lib/setup.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/posts/peccatum-non-nominandum/index.php on line 2
+[07-Apr-2018 01:34:03 UTC] PHP Stack trace:
+[07-Apr-2018 01:34:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/posts/peccatum-non-nominandum/index.php:0
+[07-Apr-2018 02:14:51 UTC] PHP Warning:  in_array() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/lib/pagelib.php on line 229
+[07-Apr-2018 02:14:51 UTC] PHP Stack trace:
+[07-Apr-2018 02:14:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/posts/peccatum-non-nominandum/index.php:0
+[07-Apr-2018 02:14:51 UTC] PHP   2. mpl_page->add_head_resource() /home/ubuntu/workspace/posts/peccatum-non-nominandum/index.php:6
+[07-Apr-2018 02:14:51 UTC] PHP   3. in_array() /home/ubuntu/workspace/lib/pagelib.php:229
+[07-Apr-2018 02:14:51 UTC] Default exception handler: Coding Error Debug: 
+* line 230 of /lib/pagelib.php: coding_exception thrown
+* line 6 of /posts/peccatum-non-nominandum/index.php: call to mpl_page->add_head_resource()
+
+[07-Apr-2018 02:14:51 UTC] PHP Notice:  Undefined index: dirrot in /home/ubuntu/workspace/lib/mpllib.php on line 806
+[07-Apr-2018 02:14:51 UTC] PHP Stack trace:
+[07-Apr-2018 02:14:51 UTC] PHP   1. default_exception_handler() /home/ubuntu/workspace/lib/setuplib.php:0
+[07-Apr-2018 02:14:51 UTC] PHP   2. early_renderer->fatal_error() /home/ubuntu/workspace/lib/setuplib.php:206
+[07-Apr-2018 02:14:51 UTC] PHP   3. early_renderer->__call() /home/ubuntu/workspace/lib/setuplib.php:206
+[07-Apr-2018 02:14:51 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/lib/setuplib.php:482}() /home/ubuntu/workspace/lib/setuplib.php:482
+[07-Apr-2018 02:14:51 UTC] PHP   5. base_renderer->fatal_error() /home/ubuntu/workspace/lib/setuplib.php:482
+[07-Apr-2018 02:14:51 UTC] PHP   6. base_renderer->footer() /home/ubuntu/workspace/lib/classes/output/base_renderer.php:425
+[07-Apr-2018 02:14:51 UTC] PHP   7. get_performance_info() /home/ubuntu/workspace/lib/classes/output/base_renderer.php:331
+[07-Apr-2018 02:16:13 UTC] PHP Warning:  in_array() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/lib/pagelib.php on line 229
+[07-Apr-2018 02:16:13 UTC] PHP Stack trace:
+[07-Apr-2018 02:16:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/posts/peccatum-non-nominandum/index.php:0
+[07-Apr-2018 02:16:13 UTC] PHP   2. mpl_page->add_head_resource() /home/ubuntu/workspace/posts/peccatum-non-nominandum/index.php:6
+[07-Apr-2018 02:16:13 UTC] PHP   3. in_array() /home/ubuntu/workspace/lib/pagelib.php:229
+[07-Apr-2018 02:16:13 UTC] Default exception handler: Coding Error Debug: 
+* line 230 of /lib/pagelib.php: coding_exception thrown
+* line 6 of /posts/peccatum-non-nominandum/index.php: call to mpl_page->add_head_resource()
+
+[07-Apr-2018 02:16:48 UTC] PHP Warning:  array_key_exists() expects exactly 2 parameters, 1 given in /home/ubuntu/workspace/lib/pagelib.php on line 229
+[07-Apr-2018 02:16:48 UTC] PHP Stack trace:
+[07-Apr-2018 02:16:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/posts/peccatum-non-nominandum/index.php:0
+[07-Apr-2018 02:16:48 UTC] PHP   2. mpl_page->add_head_resource() /home/ubuntu/workspace/posts/peccatum-non-nominandum/index.php:6
+[07-Apr-2018 02:16:48 UTC] PHP   3. array_key_exists() /home/ubuntu/workspace/lib/pagelib.php:229
+[07-Apr-2018 02:16:48 UTC] Default exception handler: Coding Error Debug: 
+* line 230 of /lib/pagelib.php: coding_exception thrown
+* line 6 of /posts/peccatum-non-nominandum/index.php: call to mpl_page->add_head_resource()
+
+[07-Apr-2018 17:20:51 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/posts/begin/lib/setup.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/posts/begin/index.php on line 2
+[07-Apr-2018 17:20:51 UTC] PHP Stack trace:
+[07-Apr-2018 17:20:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/posts/begin/index.php:0
+[07-Apr-2018 17:20:51 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/posts/begin/lib/setup.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/posts/begin/index.php on line 2
+[07-Apr-2018 17:20:51 UTC] PHP Stack trace:
+[07-Apr-2018 17:20:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/posts/begin/index.php:0
+[07-Apr-2018 17:44:26 UTC] Default exception handler: PHP catchable fatal error Debug: Argument 1 passed to base_renderer::__construct() must be an instance of mpl_page, none given, called in /home/ubuntu/workspace/posts/begin/index.php on line 7 and defined
+* line 235 of /lib/setuplib.php: mpl_exception thrown
+* line 32 of /lib/classes/output/base_renderer.php: call to default_error_handler()
+* line 7 of /posts/begin/index.php: call to base_renderer->__construct()
+
+[07-Apr-2018 17:47:46 UTC] PHP Fatal error:  Class '__parent' not found in /home/ubuntu/workspace/lib/classes/output/post_renderer.php on line 8
+[07-Apr-2018 17:47:46 UTC] PHP Stack trace:
+[07-Apr-2018 17:47:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/posts/begin/index.php:0
+[07-Apr-2018 17:47:46 UTC] PHP   2. base_renderer->header() /home/ubuntu/workspace/posts/begin/index.php:9
+[07-Apr-2018 17:47:46 UTC] PHP   3. post_renderer->standard_top_of_body_html() /home/ubuntu/workspace/lib/classes/output/base_renderer.php:274
